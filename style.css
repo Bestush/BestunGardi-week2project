@@ -1,0 +1,38 @@
+* {
+  border: 1px solid black;
+}
+html {
+  width: 100%;
+}
+body {
+  margin: auto;
+  width: 80%;
+}
+col-1 {
+  width: 33%;
+}
+col-2 {
+  width: 66%;
+}
+nav {
+  text-decoration: none;
+  list-style: none;
+  position: fixed;
+}
+a {
+  display: none;
+}
+.menu-icon {
+  display: inline;
+  color: black;
+}
+img {
+  width: 100%;
+}
+.visitor {
+  position: absolute;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #fff;
+  display: absolute;
+}
