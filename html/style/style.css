@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100');
-* {
+/* * {
   border: 1px solid black;
-}
+} */
 
 body {
   box-sizing: border-box;
@@ -360,4 +360,106 @@ padding: 5%;
   left: 27%;
   font-weight: 400;
   position: absolute;
+}
+
+
+.room-title{
+position: relative;
+  text-align: center;
+}
+
+.master-Section{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+  margin-bottom: 0;
+ 
+
+}
+.master-img{
+  width: 50%;
+}
+.master-content{
+  text-align: center;
+  width: 35%;
+  padding: 5% 5% 0 10%;
+  background-color: #fff;
+  
+}
+.master-content p{
+  margin: 0 auto;
+  width: 60%;  
+}
+.master-content button{
+  background-color:#fff;
+  text-align: center;
+padding: 5% 25%;
+border: 2px solid #000;
+border-radius: 5px;
+
+}
+
+.junior-section{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.junior-img{
+  width: 48%;
+}
+.junior-content{
+  width: 55%;
+  text-align: center;
+  margin: 8% 0;
+  background-color: white;
+}
+.junior-content p{
+  text-align: justify;
+  width: 40%;
+  margin:0 auto;
+}
+.junior-content button{
+  padding: 3% 15%;
+background-color: #fff;
+border: 2px solid #000;
+border-radius: 5px;
+}
+
+.standard-section h2 {
+  color: grey;;
+  font-size: 3em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+.std-cards{
+  display: flex;
+  flex-direction: row;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+.std-cards p {
+  margin-bottom: 0;
+}
+.std-cards h3 {
+  color: grey;
+}
+.std-cards div{
+  width: 32%;
+  margin: 0 3%;
+  background-color: white;
+}
+.standard-section button{
+  width: 30%;
+  padding: 2% 5%;
+  
+  margin:2% 0 3% 0;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(246, 246, 247);
+  border-radius: 5px;
+  font-size: 1em;
+  color: #000;
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
 }
