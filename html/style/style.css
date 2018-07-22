@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100');
-/* * {
+* {
   border: 1px solid black;
-} */
+}
 
 body {
   box-sizing: border-box;
@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-  margin-right: 8%;
+  padding-left: 6%;
 }
 
 .saMenu {
@@ -234,7 +234,7 @@ footer {
 footer input {
   border-radius: 5px;
   margin-bottom: 2%;
-  text-align: center;
+  text-align: left;
 }
 footer #sign-up-button{
   color: #fff;
@@ -267,4 +267,97 @@ footer form{
   margin:0 15% 0 10%;
   display: flex;
   flex-direction: column;
+}
+.left-h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  top: -1.5%;
+  font-weight: 400;
+  font-size: 1em;
+  position: absolute;
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.contact h2 {
+  text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+}
+.contact-info  {
+  color: rgb(85, 85, 85);
+  padding-left: 5%;
+}
+.contact-info i {
+  
+padding: 5% 7% 0;
+}
+.contact-info div {
+  display: flex;
+}
+.contact-info .fa-phone {
+  transform: rotate(15deg) scaleX(-1);
+}
+.form-img {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.form-img h2 {
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.form-img img {
+  
+  padding-left: 50%;
+}
+.form-header {
+  margin-left: 10%;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+
+}
+.form-header input {
+  border: 3px solid #544D41;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 5%; 
+
+}
+.form-header textarea {
+  border: 3px solid #544D41;
+  border-radius: 5px;
+}
+#send-mail {
+  border: 3px solid #544D41;
+  border-radius: 5px;
+  background-color: #554444;
+  padding: 3% 0;
+  margin-top: 2%;
+  color: white;
+  width: 100%;
+}
+.footer-contact {
+  margin-top: 0;
+}
+.footer-contact input {
+  text-align: left;
+}
+.contact-us{
+background-color: rgba(255, 255, 255, 0.726);
+padding: 5%;
+  font-size: 4em;
+  top: 20%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  left: 27%;
+  font-weight: 400;
+  position: absolute;
 }
