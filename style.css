@@ -491,6 +491,14 @@ border-radius: 5px;
 }
 /* phone */
 @media screen and (max-width: 767px) {
+  .saMenu{
+    display: inline;
+    margin-left :85%;
+    
+  }
+  ul {
+    display: none;
+  }
   .our-services-content div{
     width: 45%;
   }
