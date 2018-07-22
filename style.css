@@ -1,38 +1,270 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100');
+/* * {
   border: 1px solid black;
-}
-html {
-  width: 100%;
-}
+} */
+
 body {
-  margin: auto;
+  box-sizing: border-box;
+  position: relative;
   width: 80%;
+  margin: 0 auto;
 }
-col-1 {
-  width: 33%;
+
+header {
+  width: 100%;
+  position: relative;
+  /* background-image: url(images/nik-lanus-41808-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; */
 }
-col-2 {
-  width: 66%;
+
+.navContainer {
+  width: 100%;
+  position: absolute;
 }
-nav {
-  text-decoration: none;
+
+ul {
+  display: flex;
+  justify-content: flex-end;
   list-style: none;
-  position: fixed;
 }
-a {
+
+li {
+  margin-right: 8%;
+}
+
+.saMenu {
   display: none;
 }
-.menu-icon {
-  display: inline;
-  color: black;
-}
+
 img {
   width: 100%;
 }
-.visitor {
+
+h1 {
   position: absolute;
-  margin: 0 auto;
-  width: 80%;
+  text-transform: uppercase;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 1;
+  line-height: 80%;
+  font-size: 5em;
+  top: 60%;
+  left: 3%;
+}
+
+.visitor {
+  border-radius: 5px;
+  text-align: center;
   background-color: #fff;
-  display: absolute;
+  border: 1px solid black;
+  position: absolute;
+  top: 18%;
+  left: 67%;
+  width: 30%;
+}
+
+input {
+  margin-right: 5%;
+}
+
+form div {
+  padding: 5% 0;
+}
+
+/* number of .visitors selector */
+
+#visitors {
+  margin-left: 90px;
+  text-align: center;
+  width: 10%;
+}
+
+#check-in,
+#check-out {
+  text-align: center;
+  width: 35%;
+}
+
+label {
+  margin-left: 0;
+  padding: 0 35px 0 0px;
+}
+
+/* continue button */
+
+.visitor #submit-button {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px 75px;
+  margin-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.book {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+form {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: #F6F6F7;
+}
+
+/* column takes up 33% percent of screen */
+
+.our-services {
+  width: 100%;
+}
+
+.our-services-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.our-services-content div {
+  width: 30%;
+  margin: 0 1%;
+  padding: 0 0 10% 0;
+}
+
+.our-services h2 {
+font-size: 3em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 1;
+  padding-bottom: 5%;
+}
+.fas,
+.far {
+  font-size: 35px;
+}
+
+.our-rooms  {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.our-rooms input {
+  font-weight: 400;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 2px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  background-color: #F6F6F7; 
+  
+}
+.our-rooms p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.our-rooms h2 {
+  margin-top: 0;
+  line-height: 75%;
+  font-size: 4em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+.our-rooms img {
+  height: 650px;
+  margin: 0 5% 0 0;
+  width: 97%;
+}
+.cards h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  padding:2% 0 5% 0;
+}
+.stars  {
+  color: #544D41;
+  padding: 0 0 5% 0;
+  
+}
+ .customer-cards{
+  
+   text-align: center;
+   
+   line-height: 90%
+ }
+ 
+ .customer-cards p {
+    margin-top: 0;
+ }
+ .customer-cards h3 {
+   font-weight: 400;
+ }
+ 
+   .left-card {
+    margin: 0 5%;
+    display: inline-block;
+
+  background-color: #fff;
+   width: 35%;
+ }
+ .right-card {
+   margin: 0 5%;
+   display: inline-block;
+  background-color: #fff;
+  width: 35%;
+}
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #544D41;
+  margin-top: 5%;
+  
+}
+
+footer input {
+  border-radius: 5px;
+  margin-bottom: 2%;
+  text-align: center;
+}
+footer #sign-up-button{
+  color: #fff;
+  background-color: #544D41;
+  border: 1px solid white;
+  
+}
+
+
+
+.left-side{
+  width:55%;
+}
+.social-media {
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 25%;
+    padding: 5% 0 0 0;
+}
+.fab {
+
+  font-size: 2.5em;
+  color: white;
+}
+.social-media a {
+  padding: 0  0 0 20%;
+}
+footer form{
+  margin:0 15% 0 10%;
+  display: flex;
+  flex-direction: column;
 }
