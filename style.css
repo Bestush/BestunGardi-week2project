@@ -270,7 +270,7 @@ footer form{
 }
 .left-h2 {
   font-family: 'IBM Plex Sans', sans-serif;
-  top: -1.5%;
+  top: -4.3%;
   font-weight: 400;
   font-size: 1em;
   position: absolute;
@@ -461,5 +461,58 @@ border-radius: 5px;
  
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
+  .saMenu{
+    display: inline;
+    margin-left :85%;
+    
+  }
+  ul {
+    display: none;
+  }
+  .contact {
+   display: block;
+
+  }
+
+  .contact h2 {
+    text-align: center;
+  }
+  .form-img {
+    display: block;
+  }
+  .form-img img {
+    padding-left: 0;
+  }
+  #send-mail {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+  }
+}
+/* phone */
+@media screen and (max-width: 767px) {
+  .our-services-content div{
+    width: 45%;
+  }
+
+  .form-img {
+    display: block;
+  }
+  .form-img img {
+    padding-left: 0;
+  }
+  #send-mail {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+  }
+  .master-section{
+    flex-direction: column;
+  }
+  .junior-section{
+    flex-direction: column;
+  }
+  .standard-section{
+    flex-direction: column;
+  }
 }
